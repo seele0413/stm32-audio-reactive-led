@@ -28,3 +28,23 @@ FFT Analysis
 Lighting Effect Mapping
     ↓
 WS2812B LED Strip
+```
+
+## Firmware Status / 固件状态
+
+The current repository focuses on project documentation, hardware wiring and system architecture. Firmware source files are being reorganized under the `firmware/` directory to separate application logic, audio sampling, FFT processing and WS2812B LED control.
+
+当前仓库主要用于展示项目说明、硬件接线和系统架构。固件源码将整理到 `firmware/` 目录下，并按照应用逻辑、音频采样、FFT 处理和 WS2812B 灯带控制进行模块划分。
+
+## Repository Structure / 仓库结构
+
+```text
+.
+├── README.md
+├── hardware/
+│   └── wiring.md
+├── firmware/
+│   └── README.md
+└── third_party/
+    └── NOTICE.md
+```
