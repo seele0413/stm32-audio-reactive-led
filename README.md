@@ -13,3 +13,18 @@ STM32F103C8T6 / MAX9814 / WS2812B / ADC / DMA / FFT / PWM / C
 - 使用 FFT 分析音频频域特征，并提取音量和频谱变化信息
 - 根据音频特征映射 WS2812B 灯带颜色、亮度和动态效果
 - 完成硬件接线、模块联调、参数调试和实物验证
+
+## System Architecture
+
+```text
+Audio Signal
+    ↓
+MAX9814 Microphone Module
+    ↓
+STM32F103C8T6 ADC + DMA Sampling
+    ↓
+FFT Analysis
+    ↓
+Lighting Effect Mapping
+    ↓
+WS2812B LED Strip
