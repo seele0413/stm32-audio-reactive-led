@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I "F:\STM Standard peripheral Library\STM32Cube_FW_F4_V1.28.0\Drivers\CMSIS\Include" -I "F:\STM Standard peripheral Library\STM32Cube_FW_F4_V1.28.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include" -I "F:\STM Standard peripheral Library\STM32Cube_FW_F4_V1.28.0\Drivers\STM32F4xx_HAL_Driver\Inc" -I "F:\STM Standard peripheral Library\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Include" -I "F:\STM Standard peripheral Library\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates" -I "F:\STM Standard peripheral Library\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm"
+-I.\RTE\_Target_1
+-IE:\Keilv5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+-IE:\Keilv5\ARM\CMSIS\Include
+-D__UVISION_VERSION="524" -DSTM32F429_439xx
+-o .\main.o --omf_browse .\main.crf --depend .\main.d "main.c"
