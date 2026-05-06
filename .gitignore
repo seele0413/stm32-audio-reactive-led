@@ -1,0 +1,24 @@
+# Keil / embedded build outputs
+Objects/
+Listings/
+*.uvguix.*
+*.uvoptx
+*.bak
+*.lst
+*.map
+*.axf
+*.hex
+*.bin
+*.elf
+*.o
+*.d
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Documents
+*.docx
+~$*
